@@ -63,7 +63,7 @@ const Grid = () => {
               <div className=" p-4 text-white">
                 <h3 className="font-bold text-2xl">{gridItems[1].title}</h3>
                 <ul className="mt-6  flex items-center gap-2 justify-center w-full">
-                  {gridItems[1].stats.map((stat, index) => (
+                {gridItems[1]?.stats?.map((stat, index) => (
                     <li key={index} className="text-xl flex m ">
                       <div className="px-4 py-2 bg-[#161A31]/50 rounded-lg text-center">
                         <p className="bg-gradient-to-b from-[#DD4AFF] to-[#1d2eae] bg-clip-text text-transparent text-6xl">{stat.value}</p>
