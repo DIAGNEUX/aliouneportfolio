@@ -1,7 +1,5 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+
 import Hero from "@/Components/Hero";
-import { FaHome } from "react-icons/fa";
 import Grid from "@/Components/Grid";
 import Navbar from "@/Components/Navbar";
 import Competences from "@/Components/Competences";
