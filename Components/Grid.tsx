@@ -3,12 +3,8 @@ import { useState } from "react";
 import { gridItems } from "@/data";
 import { BackgroundGradientAnimation } from "./ui/GradientBg";
 import ScrollingBanner from "./ui/ScrollingBanner";
-import Lottie from "react-lottie";
-import { animate } from "motion";
-import animationData from "../data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline, IoDownload } from "react-icons/io5";
-import { BsDownload } from "react-icons/bs";
 
 const Grid = () => {
   const frontendSkills = ["React", "Vue.js", "JavaScript", "Tailwind", "CSS", "Node.js"];
